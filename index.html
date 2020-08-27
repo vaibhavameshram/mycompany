@@ -10,7 +10,7 @@
     <body>
         <!-- The header -->
         <div class="header">
-            <a href="#default" class="logo"><img src="images/logo.png" alt="logo" id="logo">
+            <a href="#default" class="logo"><img src="image/logo.png" alt="logo" id="logo">
         MY Company</a>
             <div class="header-right">
                 <a class="active" href="#home">Home</a>
@@ -39,19 +39,100 @@
         <!-- The sidebar -->
         <div class="sidebar">
             <a class="active" href="#home">Home</a>
-            <a href="#Blog">Blog</a>
-            <a href="#contact">Contact</a>
+            <a href="#blog">Blog</a>
+            <a href="#contact" >Contact</a>
             <a href="#about">About</a>
         </div>
         <!-- Page content -->
         <div class="content">
-        ..
+            <div class="about">
+                <a name="blog">
+                    <h2 style="color:rgb(26, 184, 131);padding:20px">BLOG</h2>
+                    <div class="row"><div class="card"><p>Hello,<br>we are here to help you achieve new skills and develop your future.
+                    </p></div></div>
+            </div>
+            <div class="about">
+                <a name="about"></a>
+                <h2 style="color:rgb(26, 184, 131);padding:20px">ABOUT US</h2>
+                <div class="row">
+                    <div class="column">
+                      <div class="card">
+                        <img src="image/story1.jpg" alt="vaibhav" style="width:100%">
+                        <div class="container">
+                          <h2>Vaibhav Meshram</h2>
+                          <p class="title">CEO & Founder</p>
+                          <p>Some text that describes me </p>
+                          <p>vaibhav@example.com</p>
+                          <p><button class="button">Contact</button></p>
+                        </div>
+                      </div>
+                    </div>
+                  
+                    <div class="column">
+                      <div class="card">
+                        <img src="image/story2.jpg" alt="rani" style="width:100%">
+                        <div class="container">
+                          <h2>Rani Ramteke</h2>
+                          <p class="title">Art Director</p>
+                          <p>Some text that describes me.</p>
+                          <p>rani@example.com</p>
+                          <p><button class="button">Contact</button></p>
+                        </div>
+                      </div>
+                    </div>
+                    
+                    <div class="column">
+                      <div class="card">
+                        <img src="image/story3.jpg" alt="Riya" style="width:100%">
+                        <div class="container">
+                          <h2>Riya Ranjan</h2>
+                          <p class="title">Designer</p>
+                          <p>Some text that describes me.</p>
+                          <p>riya@example.com</p>
+                          <p><button class="button">Contact</button></p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+            </div>
+            <!-- The contact us -->
+        <div class="about">
+            <a name="contact">
+              <h2 style="color:rgb(26, 184, 131);padding:20px">Contact Us</h2>
+              <p>Swing by for a cup of coffee, or leave us a message:</p>
+            
+            <div class="row">
+              <div class="column">
+                <img src="image/contact.png" style="width:100%">
+              </div>
+              <div class="column">
+                <form >
+                  <label for="fname">First Name</label>
+                  <input type="text" id="fname" name="firstname" placeholder="Your name..">
+                  <label for="lname">Last Name</label>
+                  <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+                  <label for="country">Country</label>
+                  <select id="country" name="country">
+                    <option value="india">India</option>
+                    <option value="australia">Australia</option>
+                    <option value="canada">Canada</option>
+                    <option value="usa">USA</option>
+                  </select>
+                  <label for="subject">Subject</label>
+                  <textarea id="subject" name="subject" placeholder="Write something.." style="height:170px"></textarea>
+                  <input type="submit" value="Submit">
+                </form>
+              </div>
+            </div>
+          </div>
         </div>
+        <!-- The iframe-->
+        <iframe src="files.html" id="iframe" title="registration form"></iframe>
         <!-- The footer -->
         <footer class="footer-distributed">
 
 			<div class="footer-left">
-          <img src="images/logo.png">
+          <img src="image/logo.png">
 				<h3>MY<span>COMPANY</span></h3>
 
 				<p class="footer-links">
